@@ -6,7 +6,7 @@ I received this course for free by promocode: BLACKHATFORUMFREEV1
 
 <br/>
 
-**Environment:**
+**My Environment:**
 
 <br/>
 
@@ -35,7 +35,20 @@ I received this course for free by promocode: BLACKHATFORUMFREEV1
 
 <br/>
 
+## 01 Setting up Node.js
 
+<br/>
+
+### 002 Setting up and Installing Dependencies
+
+    # npm install -g nodemon
+    
+    $ cd server/
+    $ npm init -y
+    
+    $ npm install --save express body-parser morgan mongoose
+    
+    
 
 
 ___
