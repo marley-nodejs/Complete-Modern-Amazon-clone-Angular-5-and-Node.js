@@ -77,6 +77,21 @@ I received this course for free by promocode: BLACKHATFORUMFREEV1
 
     $ npm install --save cors
 
+
+<br/>
+
+## 02 Setting up Angular 5
+
+<br/>
+
+### 010 Installing Dependencies - Angular
+
+    # npm install -g @angular/cli
+    $ cd client/
+    $ ng new AngularAmazono --routing --style=scss
+    $ cd AngularAmazono
+    $ npm install --save @ng-bootstrap/ng-bootstrap
+
 ___
 
 **Marley**
