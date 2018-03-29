@@ -48,9 +48,24 @@ I received this course for free by promocode: BLACKHATFORUMFREEV1
     
     $ npm install --save express body-parser morgan mongoose
     
+<br/>
+
+### 003 Adding all the middle wares
+
+<br/>
+
+### 004 Running your first server
+
+    $ nodemon server.js
     
+<br/>    
 
-
+    $ curl localhost:3000
+    {"user":"Arash Yahaya"}
+    
+    
+    
+    
 ___
 
 **Marley**
