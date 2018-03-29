@@ -46,7 +46,7 @@ I received this course for free by promocode: BLACKHATFORUMFREEV1
     $ cd server/
     $ npm init -y
     
-    $ npm install --save express body-parser morgan mongoose
+    $ npm install --save express body-parser morgan mongoose 
     
 <br/>
 
@@ -71,10 +71,11 @@ I received this course for free by promocode: BLACKHATFORUMFREEV1
 
 ### 006 Setting up Configuration file for database port number and secret key
 
+<br/>
 
+### 007 Adding CORS
 
-
-
+    $ npm install --save cors
 
 ___
 
