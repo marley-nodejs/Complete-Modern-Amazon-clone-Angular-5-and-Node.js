@@ -105,6 +105,9 @@ I received this course for free by promocode: BLACKHATFORUMFREEV1
 
 ### 011 Adding Dependencies to App Module
 
+<br/>
+
+### 012 Setting up Navbar and Footer
 
 ___
 
