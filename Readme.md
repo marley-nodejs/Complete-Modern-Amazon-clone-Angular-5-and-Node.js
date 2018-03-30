@@ -32,6 +32,15 @@ I received this course for free by promocode: BLACKHATFORUMFREEV1
 
     $ npm --version
     5.6.0
+    
+<br/>    
+    
+    $ npm list -g --depth=0
+    /usr/local/lib
+    +-- @angular/cli@1.7.3
+    +-- nodemon@1.17.2
+    `-- npm@5.6.0
+
 
 <br/>
 
@@ -91,6 +100,11 @@ I received this course for free by promocode: BLACKHATFORUMFREEV1
     $ ng new AngularAmazono --routing --style=scss
     $ cd AngularAmazono
     $ npm install --save @ng-bootstrap/ng-bootstrap
+
+<br/>
+
+### 011 Adding Dependencies to App Module
+
 
 ___
 
