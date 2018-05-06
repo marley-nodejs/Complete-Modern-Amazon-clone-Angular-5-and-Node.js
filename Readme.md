@@ -129,6 +129,21 @@ I received this course for free by promocode: BLACKHATFORUMFREEV1
 
 ![Application](/img/pic-02-01.png?raw=true)    
 
+<br/>
+
+### 016 Setting up Home Page
+
+![Application](/img/pic-02-02.png?raw=true) 
+
+
+<br/>
+
+### 017 Setting up REST Service
+
+    $ ng generate service RestApi
+    $ ng serve --host 0.0.0.0 --port 8080
+    
+    
 ___
 
 **Marley**
