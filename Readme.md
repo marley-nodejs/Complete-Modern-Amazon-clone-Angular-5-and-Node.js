@@ -109,6 +109,16 @@ I received this course for free by promocode: BLACKHATFORUMFREEV1
 
 ### 012 Setting up Navbar and Footer
 
+<br/>
+
+### 013 logo.png
+
+<br/>
+
+### 014 Setting up Navbar and Footer Episode 2
+
+
+
 ___
 
 **Marley**
