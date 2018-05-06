@@ -117,7 +117,17 @@ I received this course for free by promocode: BLACKHATFORUMFREEV1
 
 ### 014 Setting up Navbar and Footer Episode 2
 
+<br/>
 
+### 015 Angular Router Explanation
+
+
+    $ cd /project/client/AngularAmazono/
+    $ ng generate component home
+    $ ng serve --host 0.0.0.0 --port 8080
+
+
+![Application](/img/pic-02-01.png?raw=true)    
 
 ___
 
