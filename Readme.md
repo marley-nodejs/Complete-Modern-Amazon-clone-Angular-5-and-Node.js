@@ -143,7 +143,17 @@ I received this course for free by promocode: BLACKHATFORUMFREEV1
     $ ng generate service RestApi
     $ ng serve --host 0.0.0.0 --port 8080
     
-    
+
+<br/>
+
+### 018 Setting up Data Service Message Component
+
+    $ ng generate service Data
+    $ ng generate component Message
+    $ ng serve --host 0.0.0.0 --port 8080
+
+
+
 ___
 
 **Marley**
