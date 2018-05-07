@@ -190,9 +190,35 @@ I received this course for free by promocode: BLACKHATFORUMFREEV1
 
 ### 026 UserSchema model Part 6 Conclusion
 
+<br/>
+
+### 027 Create a signup API
 
 
+    # npm install --save jsonwebtoken
+    
+<br/>
+    
+    chrome://apps
+    
+POSTMAN
+    
+    localhost:3000/api/accounts/signup
+    
+    
+![Application](/img/pic-02-03.png?raw=true) 
 
+<br/>
+
+![Application](/img/pic-02-04.png?raw=true) 
+
+<br/>
+
+![Application](/img/pic-02-05.png?raw=true)  
+
+
+   
+    
 ___
 
 **Marley**

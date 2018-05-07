@@ -10,6 +10,7 @@ const app = express();
 
 mongoose.connect(CONFIG.DATABASE, (err) => {
     if (err) {
+        console.log('Can\'t connect to the database');
         return console.log(err);
     }
 
@@ -23,12 +24,8 @@ app.use(bodyParser.urlencoded({
 app.use(morgan('dev'));
 app.use(cors());
 
-app.get('/', (req, res, next) => {
-    res.json({
-        user: 'Arash Yahaya'
-    });
-});
-
+const userRoutes = require('./routes/account');
+app.use('/api/accounts', userRoutes);
 
 app.listen(CONFIG.PORT, err => {
     console.log('Server running on port ' + CONFIG.PORT);
