@@ -153,6 +153,24 @@ I received this course for free by promocode: BLACKHATFORUMFREEV1
     $ ng serve --host 0.0.0.0 --port 8080
 
 
+<br/>
+
+## 03 Authentication - Node.js
+
+<br/>
+
+### 020 Overview
+
+<br/>
+
+### 021 Create your first UserSchema model Part 1 Why
+
+
+<br/>
+
+### 022 UserSchema model Part 2 Attributes
+
+
 
 ___
 
