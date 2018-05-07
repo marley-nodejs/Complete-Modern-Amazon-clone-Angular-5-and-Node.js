@@ -182,6 +182,15 @@ I received this course for free by promocode: BLACKHATFORUMFREEV1
 ### 024 UserSchema model Part 4 Compare Password
 
 
+<br/>
+
+### 025 UserSchema model Part 5 Gravatar
+
+<br/>
+
+### 026 UserSchema model Part 6 Conclusion
+
+
 
 
 ___
