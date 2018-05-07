@@ -170,7 +170,13 @@ I received this course for free by promocode: BLACKHATFORUMFREEV1
 
 ### 022 UserSchema model Part 2 Attributes
 
+<br/>
 
+### 023 UserSchema model Part 3 Hash Password
+
+    # cd server/
+    # npm install --save bcrypt-nodejs
+    
 
 ___
 
