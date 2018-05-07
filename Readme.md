@@ -177,6 +177,12 @@ I received this course for free by promocode: BLACKHATFORUMFREEV1
     # cd server/
     # npm install --save bcrypt-nodejs
     
+<br/>
+
+### 024 UserSchema model Part 4 Compare Password
+
+
+
 
 ___
 
