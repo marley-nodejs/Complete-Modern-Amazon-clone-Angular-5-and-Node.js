@@ -254,8 +254,12 @@ POSTMAN
 
 ### 032 Registration Page Design
 
+<br/>
+
+### 033 Create Login Component Logic
 
 
+    $ ng generate component Login
 
 ___
 
