@@ -264,9 +264,11 @@ POSTMAN
 
 ### 034 Login Page Design
 
+<br/>
 
+### 035 Auth Guard
 
-
+    $ ng generate service AuthGuard
 
 ___
 
