@@ -250,7 +250,13 @@ POSTMAN
     $ ng generate component Registration
     $ ng serve --host 0.0.0.0 --port 8080
 
-    
+<br/>
+
+### 032 Registration Page Design
+
+
+
+
 ___
 
 **Marley**
