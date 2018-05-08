@@ -270,6 +270,25 @@ POSTMAN
 
     $ ng generate service AuthGuard
 
+<br/>
+
+### 036 Features Demo
+
+
+<br/>
+
+![Application](/img/pic-02-09.png?raw=true)      
+
+
+<br/>
+
+![Application](/img/pic-02-10.png?raw=true)      
+
+<br/>
+
+![Application](/img/pic-02-11.png?raw=true)      
+
+
 ___
 
 **Marley**

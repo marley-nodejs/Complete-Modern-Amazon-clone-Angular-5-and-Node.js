@@ -21,17 +21,17 @@ export class DataService {
   }
   
   error(message){
-      this.message = 'danger';
+      this.messageType = 'danger';
       this.message = message;
   }
   
   success(message){
-      this.message = 'success';
+      this.messageType = 'success';
       this.message = message;
   }
   
   warning(message){
-      this.message = 'warning';
+      this.messageType = 'warning';
       this.message = message;
   }
   

@@ -50,14 +50,12 @@ export class LoginComponent implements OnInit {
                   }
               );
               
-              if (data['sucess']){
+              if (data['success']){
                   localStorage.setItem('token', data['token']);
                   this.router.navigate(['/']);
               } else {
                   this.data.error(data['message']);
               }
-              
-              
           }
       } catch (error){
           this.data.error(error['message']);
