@@ -232,6 +232,24 @@ POSTMAN
 <br/>
 
 ![Application](/img/pic-02-08.png?raw=true)  
+
+
+<br/>
+
+## 04 Authentication - Angular.js  
+
+<br/>
+
+### 030 Overview JWT on the frontend localStorage
+
+<br/>
+
+### 031 Create Registration Component Logic
+
+    $ cd client/AngularAmazono/
+    $ ng generate component Registration
+    $ ng serve --host 0.0.0.0 --port 8080
+
     
 ___
 
