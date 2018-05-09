@@ -306,11 +306,36 @@ POSTMAN
 
 <br/>
 
-![Application](/img/pic-02-12.png?raw=true)  
+![Application](/img/pic-05-01.png?raw=true)  
 
 <br/>
 
-![Application](/img/pic-02-13.png?raw=true)  
+![Application](/img/pic-05-02.png?raw=true)  
+
+
+<br/>
+
+### 041 Profile API - Editing your profile
+
+
+<br/>
+
+![Application](/img/pic-05-03.png?raw=true)  
+
+<br/>
+
+![Application](/img/pic-05-04.png?raw=true)  
+
+<br/>
+
+![Application](/img/pic-05-05.png?raw=true)  
+
+<br/>
+
+![Application](/img/pic-05-06.png?raw=true)  
+
+
+
 
 ___
 
