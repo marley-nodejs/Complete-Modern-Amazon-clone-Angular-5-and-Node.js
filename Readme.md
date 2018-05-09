@@ -335,7 +335,27 @@ POSTMAN
 ![Application](/img/pic-05-06.png?raw=true)  
 
 
+<br/>
 
+### 042 Address API - GET and POST
+
+
+<br/>
+
+![Application](/img/pic-05-07.png?raw=true) 
+
+
+<br/>
+
+![Application](/img/pic-05-08.png?raw=true) 
+
+<br/>
+
+![Application](/img/pic-05-09.png?raw=true) 
+
+<br/>
+
+![Application](/img/pic-05-10.png?raw=true) 
 
 ___
 
