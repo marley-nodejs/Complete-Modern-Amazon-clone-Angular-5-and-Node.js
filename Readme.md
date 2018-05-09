@@ -300,7 +300,17 @@ POSTMAN
 
 ### 039 Create A JSONWEBTOKEN middleware
 
+<br/>
 
+### 040 Profile API - GET
+
+<br/>
+
+![Application](/img/pic-02-12.png?raw=true)  
+
+<br/>
+
+![Application](/img/pic-02-13.png?raw=true)  
 
 ___
 

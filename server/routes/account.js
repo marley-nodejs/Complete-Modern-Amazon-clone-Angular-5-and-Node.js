@@ -3,6 +3,7 @@ const jwt = require('jsonwebtoken');
 
 const User = require('../models/user');
 const CONFIG = require('../config');
+const checkJWT = require('../middlewares/check-jwt');
 
 
 router.post('/signup', (req, res, next) => {
@@ -76,5 +77,20 @@ router.post('/login', (req, res, next) =>{
         }
     });
 });
+
+router.route('/profile')
+        .get(checkJWT, (req, res, next) => {
+            User.findOne({
+                _id: req.decoded.user._id
+            }, (err, user) => {
+                res.json({
+                    success: true,
+                    user,
+                    message: "successful"
+                });
+            });
+        })
+    .post();
+
 
 module.exports = router;
