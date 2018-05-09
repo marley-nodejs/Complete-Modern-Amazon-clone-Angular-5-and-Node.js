@@ -357,6 +357,18 @@ POSTMAN
 
 ![Application](/img/pic-05-10.png?raw=true) 
 
+<br/>
+
+## 06 Profile and Address Pages - Angular
+
+
+<br/>
+
+### 044 Get Profile Logic
+
+
+
+
 ___
 
 **Marley**

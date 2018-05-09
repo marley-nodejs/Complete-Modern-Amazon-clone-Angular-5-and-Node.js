@@ -14,7 +14,7 @@ export class AppComponent {
   isCollpased = true;
   
   constructor(private router: Router, private data: DataService){
-      
+      this.data.getProfile();
   }
   
   get token(){
