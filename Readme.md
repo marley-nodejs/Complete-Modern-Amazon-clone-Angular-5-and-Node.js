@@ -371,8 +371,12 @@ POSTMAN
 ### 045 Profile Page
 
     $ ng generate component Profile
-    
-    
+
+<br/>
+
+### 046 Settings Page
+
+    $ ng generate component Settings
 
 ___
 
