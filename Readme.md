@@ -377,6 +377,12 @@ POSTMAN
 ### 046 Settings Page
 
     $ ng generate component Settings
+    
+<br/>
+
+### 047 Create Address Page
+
+    $ ng generate component Address
 
 ___
 
