@@ -13,36 +13,36 @@
                 <form>
                     <div class="form-group">
                         <label>Address 1</label>
-                        <input type="text" name="address1" class="form-control" [(ngModle)]="currentAddress.addr1">
+                        <input type="text" name="address1" class="form-control" [(ngModel)]="currentAddress.addr1">
                     </div>
                     <div class="form-group">
                         <label>Address2</label>
-                        <input type="text" name="address2" class="form-control" [(ngModle)]="currentAddress.addr2">
+                        <input type="text" name="address2" class="form-control" [(ngModel)]="currentAddress.addr2">
                     </div>
                     <div class="row">
                         <div class="col-md-4">
                             <div class="form-group">
                                 <label>City</label>
-                                <input type="type" name="city" class="form-contro" [(ngModle)]="currentAddress.city">
+                                <input type="type" name="city" class="form-control" [(ngModel)]="currentAddress.city">
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="form-group">
                                 <label>State</label>
-                                <input type="type" name="state" class="form-contro" [(ngModle)]="currentAddress.state">
+                                <input type="type" name="state" class="form-control" [(ngModel)]="currentAddress.state">
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="form-group">
                                 <label>Postal Code</label>
-                                <input type="type" name="postalCode" class="form-contro" [(ngModle)]="currentAddress.postalCode">
+                                <input type="type" name="postalCode" class="form-control" [(ngModel)]="currentAddress.postalCode">
                             </div>
                         </div>
                     </div>
                     
                     <div class="form-group">
                         <label>Country</label>
-                        <input type="text" name="country" class="form-control" [(ngModle)]="currentAddress.country">
+                        <input type="text" name="country" class="form-control" [(ngModel)]="currentAddress.country">
                     </div>
                     
                     <button type="button" class="btn btn-danger" (click)="updateAddress()" [disabled]="btnDisabled">Change Address</button>

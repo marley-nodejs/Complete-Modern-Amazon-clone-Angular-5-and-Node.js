@@ -384,6 +384,23 @@ POSTMAN
 
     $ ng generate component Address
 
+<br/>
+
+### 048 Features Demo
+
+
+<br/>
+
+![Application](/img/pic-06-01.png?raw=true) 
+
+<br/>
+
+![Application](/img/pic-06-02.png?raw=true) 
+
+<br/>
+
+![Application](/img/pic-06-03.png?raw=true) 
+
 ___
 
 **Marley**

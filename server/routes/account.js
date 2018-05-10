@@ -105,7 +105,7 @@ router.post('/login', (req, res, next) =>{
                 
                 user.save();
                 res.json({
-                    sucess: true,
+                    success: true,
                     message: 'Successfully edited your profile'
                 });
             });
@@ -144,7 +144,7 @@ router.post('/login', (req, res, next) =>{
                 
                 user.save();
                 res.json({
-                    sucess: true,
+                    success: true,
                     message: 'Successfully edited your address'
                 });
             });

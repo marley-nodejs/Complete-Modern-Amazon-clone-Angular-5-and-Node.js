@@ -36,7 +36,7 @@ export class AddressComponent implements OnInit {
       
       try {
     
-          const res = await this.rest.post('http://localhost:3000/api/account/address', this.currentAddress);
+          const res = await this.rest.post('http://localhost:3000/api/accounts/address', this.currentAddress);
           
           res['success'] ? (this.data.success(res['message']), await this.data.getProfile()) : this.data.error(res['message']);
           
