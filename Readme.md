@@ -366,8 +366,13 @@ POSTMAN
 
 ### 044 Get Profile Logic
 
+<br/>
 
+### 045 Profile Page
 
+    $ ng generate component Profile
+    
+    
 
 ___
 
