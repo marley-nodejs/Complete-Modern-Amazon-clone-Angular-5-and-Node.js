@@ -419,6 +419,19 @@ POSTMAN
 
 ### 052 Create a category Schema
 
+<br/>
+
+### 053 Get all categories API
+
+
+<br/>
+
+![Application](/img/pic-07-01.png?raw=true) 
+
+<br/>
+
+![Application](/img/pic-07-02.png?raw=true) 
+
 
 ___
 
