@@ -401,6 +401,21 @@ POSTMAN
 
 ![Application](/img/pic-06-03.png?raw=true) 
 
+
+<br/>
+
+## 07 Adding a category and product as a seller - Node.js
+
+
+<br/>
+
+### 050 Overview
+
+<br/>
+
+### 051 Create a category Schema
+
+
 ___
 
 **Marley**
