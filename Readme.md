@@ -436,6 +436,15 @@ POSTMAN
 
 ### 054 Create a Product Schema
 
+<br/>
+
+### 055 Create amazon web services account
+
+<br/>
+
+### 056 Install dependencies
+
+    $ npm install --save aws-sdk multer multer-s3
 
 
 ___
