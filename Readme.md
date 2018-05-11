@@ -454,7 +454,9 @@ POSTMAN
 
 ### 058 Add a product API - Seller
 
+<br/>
 
+### 059 Get my Product API
 
 
 ___

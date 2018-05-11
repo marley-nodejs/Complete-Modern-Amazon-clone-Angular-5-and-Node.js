@@ -28,7 +28,20 @@ const upload = multer({
 
 
 router.route('/products')
-    .get()
+    .get(checkJWT, (req, res, next) => {
+        Product.find({owner: req.decoded.user._id })
+            .populate('owner')
+            .populate('category')
+            .exec((err, products) => {
+                if (products){
+                    res.json({
+                        success: true,
+                        message: "Products",
+                        products: products
+                    });
+                }
+            });
+    })
     .post([checkJWT, upload.single('product_picture')], (req, res, next) => {
         let product = new Product();
         product.owner = req.decoded.user._id;
