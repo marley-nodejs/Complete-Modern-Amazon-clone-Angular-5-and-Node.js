@@ -432,6 +432,11 @@ POSTMAN
 
 ![Application](/img/pic-07-02.png?raw=true) 
 
+<br/>
+
+### 054 Create a Product Schema
+
+
 
 ___
 
