@@ -450,6 +450,13 @@ POSTMAN
 
 ### 057 Create an upload function using s3 and multer
 
+<br/>
+
+### 058 Add a product API - Seller
+
+
+
+
 ___
 
 **Marley**
