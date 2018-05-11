@@ -6,4 +6,4 @@ const CategorySchema = new Schema({
     created: {type: Date, default: Date.now }
 });
 
-module.exports = mongoose.model('Cagetogry', CategorySchema);
+module.exports = mongoose.model('Category', CategorySchema);

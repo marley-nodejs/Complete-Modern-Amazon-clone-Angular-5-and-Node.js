@@ -458,6 +458,19 @@ POSTMAN
 
 ### 059 Get my Product API
 
+<br/>
+
+### 060 Using faker library to increase the amount of products stored
+
+    $ npm install --save faker
+
+<br/>
+
+![Application](/img/pic-07-03.png?raw=true) 
+
+<br/>
+
+![Application](/img/pic-07-04.png?raw=true) 
 
 ___
 
