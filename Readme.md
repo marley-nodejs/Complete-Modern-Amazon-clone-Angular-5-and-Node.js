@@ -517,9 +517,24 @@ POSTMAN
 
 ![Application](/img/pic-08-04.png?raw=true)  
 
+<br/>
 
+### 065 Create My-Products Component
+
+    $ ng generate component MyProducts
     
+
+<br/>
+
+![Application](/img/pic-08-05.png?raw=true)
+
+<br/>
+
+![Application](/img/pic-08-06.png?raw=true)
+
+
 ___
+
 
 **Marley**
 

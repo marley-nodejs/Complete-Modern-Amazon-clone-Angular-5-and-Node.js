@@ -61,6 +61,7 @@ router.route('/products')
         product.description = req.body.description;
         // product.image = req.file.location;
         product.image = "no-image";
+            
         product.save();
         res.json({
             success: true,
