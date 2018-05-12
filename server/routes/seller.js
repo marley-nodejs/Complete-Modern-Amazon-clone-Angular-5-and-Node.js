@@ -51,14 +51,16 @@ router.route('/products')
                 }
             });
     })
-    .post([checkJWT, upload.single('product_picture')], (req, res, next) => {
+    // .post([checkJWT, upload.single('product_picture')], (req, res, next) => {
+    .post([checkJWT], (req, res, next) => {
         let product = new Product();
         product.owner = req.decoded.user._id;
         product.category = req.body.categoryId;
         product.title = req.body.title;
         product.price = req.body.price;
         product.description = req.body.description;
-        product.image = req.file.location;
+        // product.image = req.file.location;
+        product.image = "no-image";
         product.save();
         res.json({
             success: true,

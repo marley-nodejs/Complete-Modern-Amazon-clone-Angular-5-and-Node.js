@@ -497,6 +497,27 @@ POSTMAN
 
 ![Application](/img/pic-08-02.png?raw=true)  
 
+
+<br/>
+
+### 064 Create Post Product Component
+
+    $ ng generate component PostProduct
+    
+
+**I didn't use Amazon s3 for pictures**
+
+    
+<br/>
+
+![Application](/img/pic-08-03.png?raw=true)  
+
+
+<br/>
+
+![Application](/img/pic-08-04.png?raw=true)  
+
+
     
 ___
 
