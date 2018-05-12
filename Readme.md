@@ -487,6 +487,16 @@ POSTMAN
 <br/>
 
 ![Application](/img/pic-08-01.png?raw=true)  
+
+
+<br/>
+
+### 063 Add Category (Under Categories)
+
+<br/>
+
+![Application](/img/pic-08-02.png?raw=true)  
+
     
 ___
 
