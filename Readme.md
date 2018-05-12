@@ -472,6 +472,22 @@ POSTMAN
 
 ![Application](/img/pic-07-04.png?raw=true) 
 
+
+<br/>
+
+## 08 Adding a category and product as a seller - Angular
+
+
+<br/>
+
+### 062 Create Categories Component
+
+    $ ng generate component Categories
+    
+<br/>
+
+![Application](/img/pic-08-01.png?raw=true)  
+    
 ___
 
 **Marley**
