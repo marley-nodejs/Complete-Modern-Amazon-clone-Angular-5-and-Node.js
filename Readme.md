@@ -562,7 +562,13 @@ POSTMAN
     
 ### 070 - 073 Getting all products in a specific category API
 
+<br/>
+    
+### 074 Getting a single product API
 
+<br/>
+
+![Application](/img/pic-09-02.png?raw=true)
 
 ___
 
