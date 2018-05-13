@@ -199,6 +199,8 @@ I received this course for free by promocode: BLACKHATFORUMFREEV1
     
 <br/>
     
+**Run postman after installation**
+    
     chrome://apps
     
 POSTMAN
@@ -531,6 +533,20 @@ POSTMAN
 <br/>
 
 ![Application](/img/pic-08-06.png?raw=true)
+
+
+<br/>
+
+## 09 Products API - Node.js
+
+
+<br/>
+
+### 067 Getting all products in a specific category
+
+<br/>
+
+![Application](/img/pic-09-01.png?raw=true)
 
 
 ___
