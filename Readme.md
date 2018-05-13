@@ -570,6 +570,19 @@ POSTMAN
 
 ![Application](/img/pic-09-02.png?raw=true)
 
+<br/>
+    
+### 074 Getting a single product API
+
+<br/>
+    
+### 075 Getting all products API
+
+<br/>
+
+![Application](/img/pic-09-03.png?raw=true)
+
+
 ___
 
 **Marley**
