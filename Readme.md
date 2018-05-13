@@ -548,9 +548,23 @@ POSTMAN
 
 ![Application](/img/pic-09-01.png?raw=true)
 
+<br/>
+
+### 068 Pagination concept
+
+<br/>
+
+### 069 Async.waterfall params and query
+
+    $ npm install --save async
+    
+<br/>
+    
+### 070 - 073 Getting all products in a specific category API
+
+
 
 ___
-
 
 **Marley**
 
