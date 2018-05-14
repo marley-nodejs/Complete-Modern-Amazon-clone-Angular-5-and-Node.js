@@ -622,6 +622,15 @@ POSTMAN
 
 ![Application](/img/pic-10-02.png?raw=true)
 
+<br/>
+    
+### 080 Add Product Cards to Home
+
+<br/>
+
+![Application](/img/pic-10-03.png?raw=true)
+
+
 ___
 
 **Marley**
