@@ -6,6 +6,8 @@ I received this course for free by promocode: BLACKHATFORUMFREEV1 (And I don't k
 
 The course is not finished by author. He has some problems. Part 18 still not accessible for students.
 
+For store images author uses AWS. (Need registration by credit card).
+
 For that reason, I do not recommend buy the course for now.
 
 
@@ -610,7 +612,15 @@ POSTMAN
 
 ![Application](/img/pic-10-01.png?raw=true)
     
+<br/>
+    
+### 079 Create Product Component
 
+    $ ng generate component Product
+    
+<br/>
+
+![Application](/img/pic-10-02.png?raw=true)
 
 ___
 
