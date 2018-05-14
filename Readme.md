@@ -2,7 +2,16 @@
 
 ![Application](/img/00-intro.png?raw=true)
 
-I received this course for free by promocode: BLACKHATFORUMFREEV1
+I received this course for free by promocode: BLACKHATFORUMFREEV1 (And I don't know works it or not for now).
+
+The course is not finished by author. He has some problems. Part 18 still not accessible for students.
+
+For that reason, I do not recommend buy the course for now.
+
+
+<a href="https://gitter.im/jsdev-org/Lobby" rel="nofollow"><img src="https://badges.gitter.im/jsdev-org/Lobby.svg" alt="jsdev chat room"></a>
+
+<hr/>
 
 <br/>
 
@@ -581,6 +590,26 @@ POSTMAN
 <br/>
 
 ![Application](/img/pic-09-03.png?raw=true)
+
+<br/>
+    
+## 10 Products API - Angular
+
+<br/>
+    
+### 077 Pagination concept
+
+<br/>
+    
+### 078 Create Category Component
+
+    $ ng generate component Category
+
+
+<br/>
+
+![Application](/img/pic-10-01.png?raw=true)
+    
 
 
 ___
