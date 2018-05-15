@@ -661,7 +661,16 @@ POSTMAN
 <br/>
 
 ![Application](/img/pic-11-03.png?raw=true)
-    
+
+<br/>
+
+### 085 Calculate average rating using virtuals on Product Schema
+
+<br/>
+
+![Application](/img/pic-11-04.png?raw=true)
+
+
 ___
 
 **Marley**
