@@ -651,6 +651,17 @@ POSTMAN
 
 ![Application](/img/pic-11-02.png?raw=true)
 
+
+<br/>
+
+### 084 Install deepPopulate
+
+    $ npm install --save mongoose-deep-populate
+    
+<br/>
+
+![Application](/img/pic-11-03.png?raw=true)
+    
 ___
 
 **Marley**
