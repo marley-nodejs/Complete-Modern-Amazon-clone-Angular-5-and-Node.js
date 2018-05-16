@@ -692,6 +692,27 @@ POSTMAN
 ![Application](/img/pic-12-03.png?raw=true)
 
 
+<br/>
+
+## 13 Search API with Algolia - Node.js
+
+<br/>
+
+### 089 Create Algolia account
+
+algolia.com
+
+
+<br/>
+
+### 090 Add Algolia plugin to Product Schema
+
+    $ npm install --save mongoose-algolia
+    
+<br/>
+
+![Application](/img/pic-13-01.png?raw=true)    
+
 ___
 
 **Marley**
