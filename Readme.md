@@ -723,6 +723,21 @@ algolia.com
 
 ![Application](/img/pic-13-02.png?raw=true) 
 
+
+<br/>
+
+## 14 Search API with Algolia - Angular
+
+<br/>
+
+### 093 Search Component
+
+    $ ng generate component search
+
+<br/>
+
+![Application](/img/pic-14-01.png?raw=true) 
+    
 ___
 
 **Marley**
