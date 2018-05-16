@@ -713,6 +713,16 @@ algolia.com
 
 ![Application](/img/pic-13-01.png?raw=true)    
 
+<br/>
+
+### 091 Create a search API
+
+    $ npm install --save algoliasearch
+    
+<br/>
+
+![Application](/img/pic-13-02.png?raw=true) 
+
 ___
 
 **Marley**
