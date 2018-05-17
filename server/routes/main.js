@@ -3,6 +3,7 @@ const async = require('async');
 const Category = require('../models/category');
 const Product = require('../models/product');
 const Review = require('../models/review');
+const Order = require('../models/order');
 
 const checkJWT = require('../middlewares/check-jwt');
 
@@ -157,5 +158,29 @@ router.post('/review', checkJWT, (req, res, next) => {
     ]);
 });
 
+
+router.post('/payment', checkJWT, (req, res, next) => {
+    const currentCharges = Math.round(req.body.totalPrice * 100);
+    
+    const products = req.body.products;
+    
+    let order = new Order();
+    order.owner = req.dcoded.user._id;
+    order.totalPrice = currentCharges;
+    
+    product.map(product => {
+        order.products.push({
+            product: product.product,
+            quantity: product.quantity
+        });
+    });
+    
+    order.save();
+    res.json({
+        success: true,
+        message: "Successfully made a payment"
+    });
+    
+});
 
 module.exports = router;
