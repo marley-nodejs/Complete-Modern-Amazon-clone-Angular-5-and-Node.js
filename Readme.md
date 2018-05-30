@@ -734,6 +734,13 @@ stripe.com
 
 ![Application](/img/pic-16-01.png?raw=true)
 
+<br/>
+
+### 103 Cart Component
+
+    $ ng generate component Cart
+    
+
 ---
 
 **Marley**

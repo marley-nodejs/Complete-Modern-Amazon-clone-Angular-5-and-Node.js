@@ -13,74 +13,77 @@ import { MyProductsComponent } from './my-products/my-products.component';
 import { CategoryComponent } from './category/category.component';
 import { ProductComponent } from './product/product.component';
 import { SearchComponent } from './search/search.component';
-
+import { CartComponent } from './cart/cart.component';
 import { AuthGuardService } from './auth-guard.service';
 
-
 const routes: Routes = [
-    {
-        path: '',
-        component: HomeComponent
-    },
-    {
-        path: 'search',
-        component: SearchComponent
-    },
-    {
-        path: 'categories',
-        component: CategoriesComponent
-    },
-    {
-        path: 'categories/:id',
-        component: CategoryComponent
-    },
-    {
-        path: 'product/:id',
-        component: ProductComponent
-    },
-    {
-        path: 'register',
-        component: RegistrationComponent,
-        canActivate: [AuthGuardService]
-    },
-    {
-        path: 'profile',
-        component: ProfileComponent,
-        canActivate: [AuthGuardService]
-    },
-    {
-        path: 'profile/settings',
-        component: SettingsComponent,
-        canActivate: [AuthGuardService]
-    },
-    {
-        path: 'profile/address',
-        component: AddressComponent,
-        canActivate: [AuthGuardService]
-    },
-    {
-        path: 'profile/postproduct',
-        component: PostProductComponent,
-        canActivate: [AuthGuardService]
-    },
-    {
-        path: 'profile/myproducts',
-        component: MyProductsComponent,
-        canActivate: [AuthGuardService]
-    },
-    {
-        path: 'login',
-        component: LoginComponent,
-        canActivate: [AuthGuardService]
-    },
-    {
-        path: '**',
-        redirectTo: ''
-    }
+  {
+    path: '',
+    component: HomeComponent
+  },
+  {
+    path: 'cart',
+    component: CartComponent
+  },
+  {
+    path: 'search',
+    component: SearchComponent
+  },
+  {
+    path: 'categories',
+    component: CategoriesComponent
+  },
+  {
+    path: 'categories/:id',
+    component: CategoryComponent
+  },
+  {
+    path: 'product/:id',
+    component: ProductComponent
+  },
+  {
+    path: 'register',
+    component: RegistrationComponent,
+    canActivate: [AuthGuardService]
+  },
+  {
+    path: 'profile',
+    component: ProfileComponent,
+    canActivate: [AuthGuardService]
+  },
+  {
+    path: 'profile/settings',
+    component: SettingsComponent,
+    canActivate: [AuthGuardService]
+  },
+  {
+    path: 'profile/address',
+    component: AddressComponent,
+    canActivate: [AuthGuardService]
+  },
+  {
+    path: 'profile/postproduct',
+    component: PostProductComponent,
+    canActivate: [AuthGuardService]
+  },
+  {
+    path: 'profile/myproducts',
+    component: MyProductsComponent,
+    canActivate: [AuthGuardService]
+  },
+  {
+    path: 'login',
+    component: LoginComponent,
+    canActivate: [AuthGuardService]
+  },
+  {
+    path: '**',
+    redirectTo: ''
+  }
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
