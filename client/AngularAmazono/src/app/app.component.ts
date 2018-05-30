@@ -9,39 +9,42 @@ import { DataService } from './data.service';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  
   searchTerm = '';
   isCollpased = true;
-  
-  constructor(private router: Router, private data: DataService){
-      this.data.getProfile();
+
+  constructor(private router: Router, private data: DataService) {
+    this.data.getProfile();
+    this.data.cartItems = this.data.getCart().length;
   }
-  
-  get token(){
-      return localStorage.getItem('token');
+
+  get token() {
+    return localStorage.getItem('token');
   }
-  
-  collapse(){
-      this.isCollpased = true;
+
+  collapse() {
+    this.isCollpased = true;
   }
-  
-  closeDropdown(dropdown){
-      dropdown.close();
+
+  closeDropdown(dropdown) {
+    dropdown.close();
   }
-  
-  logout(){
-      this.data.user = {};
-      localStorage.clear();
-      this.router.navigate(['']);
+
+  logout() {
+    this.data.user = {};
+    this.data.cartItems = 0;
+    localStorage.clear();
+    this.router.navigate(['']);
   }
-  
-  search(){
-      if (this.searchTerm){
-          this.collapse();
-          this.router.navigate(['search', {
-              query: this.searchTerm
-          }]);
-      }
+
+  search() {
+    if (this.searchTerm) {
+      this.collapse();
+      this.router.navigate([
+        'search',
+        {
+          query: this.searchTerm
+        }
+      ]);
+    }
   }
-  
 }

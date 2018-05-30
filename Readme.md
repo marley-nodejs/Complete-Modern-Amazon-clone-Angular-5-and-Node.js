@@ -10,7 +10,6 @@ For store images author uses AWS. (Need registration by credit card).
 
 For that reason, I do not recommend buy the course for now.
 
-
 <a href="https://gitter.im/jsdev-org/Lobby" rel="nofollow"><img src="https://badges.gitter.im/jsdev-org/Lobby.svg" alt="jsdev chat room"></a>
 
 <hr/>
@@ -28,7 +27,6 @@ For that reason, I do not recommend buy the course for now.
     Release:	14.04
     Codename:	trusty
 
-
 <br/>
 
     $ docker --version
@@ -43,15 +41,14 @@ For that reason, I do not recommend buy the course for now.
 
     $ npm --version
     5.6.0
-    
-<br/>    
-    
+
+<br/>
+
     $ npm list -g --depth=0
     /usr/local/lib
     +-- @angular/cli@1.7.3
     +-- nodemon@1.17.2
     `-- npm@5.6.0
-
 
 <br/>
 
@@ -62,12 +59,12 @@ For that reason, I do not recommend buy the course for now.
 ### 002 Setting up and Installing Dependencies
 
     # npm install -g nodemon
-    
+
     $ cd server/
     $ npm init -y
-    
-    $ npm install --save express body-parser morgan mongoose 
-    
+
+    $ npm install --save express body-parser morgan mongoose
+
 <br/>
 
 ### 003 Adding all the middle wares
@@ -77,12 +74,12 @@ For that reason, I do not recommend buy the course for now.
 ### 004 Running your first server
 
     $ nodemon server.js
-    
-<br/>    
+
+<br/>
 
     $ curl localhost:3000
     {"user":"Arash Yahaya"}
-    
+
 <br/>
 
 ### 005 Setting up MLab
@@ -96,7 +93,6 @@ For that reason, I do not recommend buy the course for now.
 ### 007 Adding CORS
 
     $ npm install --save cors
-
 
 <br/>
 
@@ -132,20 +128,17 @@ For that reason, I do not recommend buy the course for now.
 
 ### 015 Angular Router Explanation
 
-
     $ cd /project/client/AngularAmazono/
     $ ng generate component home
     $ ng serve --host 0.0.0.0 --port 8080
 
-
-![Application](/img/pic-02-01.png?raw=true)    
+![Application](/img/pic-02-01.png?raw=true)
 
 <br/>
 
 ### 016 Setting up Home Page
 
-![Application](/img/pic-02-02.png?raw=true) 
-
+![Application](/img/pic-02-02.png?raw=true)
 
 <br/>
 
@@ -153,7 +146,6 @@ For that reason, I do not recommend buy the course for now.
 
     $ ng generate service RestApi
     $ ng serve --host 0.0.0.0 --port 8080
-    
 
 <br/>
 
@@ -162,7 +154,6 @@ For that reason, I do not recommend buy the course for now.
     $ ng generate service Data
     $ ng generate component Message
     $ ng serve --host 0.0.0.0 --port 8080
-
 
 <br/>
 
@@ -176,7 +167,6 @@ For that reason, I do not recommend buy the course for now.
 
 ### 021 Create your first UserSchema model Part 1 Why
 
-
 <br/>
 
 ### 022 UserSchema model Part 2 Attributes
@@ -187,11 +177,10 @@ For that reason, I do not recommend buy the course for now.
 
     # cd server/
     # npm install --save bcrypt-nodejs
-    
+
 <br/>
 
 ### 024 UserSchema model Part 4 Compare Password
-
 
 <br/>
 
@@ -205,51 +194,47 @@ For that reason, I do not recommend buy the course for now.
 
 ### 027 Create a signup API
 
-
     # npm install --save jsonwebtoken
-    
+
 <br/>
-    
+
 **Run postman after installation**
-    
+
     chrome://apps
-    
+
 POSTMAN
-    
+
     localhost:3000/api/accounts/signup
-    
-    
-![Application](/img/pic-02-03.png?raw=true) 
+
+![Application](/img/pic-02-03.png?raw=true)
 
 <br/>
 
-![Application](/img/pic-02-04.png?raw=true) 
+![Application](/img/pic-02-04.png?raw=true)
 
 <br/>
 
-![Application](/img/pic-02-05.png?raw=true)  
-
-
-<br/>
-
-### 028 Create a login API  
+![Application](/img/pic-02-05.png?raw=true)
 
 <br/>
 
-![Application](/img/pic-02-06.png?raw=true)  
+### 028 Create a login API
 
 <br/>
 
-![Application](/img/pic-02-07.png?raw=true)  
+![Application](/img/pic-02-06.png?raw=true)
 
 <br/>
 
-![Application](/img/pic-02-08.png?raw=true)  
-
+![Application](/img/pic-02-07.png?raw=true)
 
 <br/>
 
-## 04 Authentication - Angular.js  
+![Application](/img/pic-02-08.png?raw=true)
+
+<br/>
+
+## 04 Authentication - Angular.js
 
 <br/>
 
@@ -287,19 +272,17 @@ POSTMAN
 
 ### 036 Features Demo
 
+<br/>
+
+![Application](/img/pic-02-09.png?raw=true)
 
 <br/>
 
-![Application](/img/pic-02-09.png?raw=true)      
-
-
-<br/>
-
-![Application](/img/pic-02-10.png?raw=true)      
+![Application](/img/pic-02-10.png?raw=true)
 
 <br/>
 
-![Application](/img/pic-02-11.png?raw=true)      
+![Application](/img/pic-02-11.png?raw=true)
 
 <br/>
 
@@ -319,61 +302,55 @@ POSTMAN
 
 <br/>
 
-![Application](/img/pic-05-01.png?raw=true)  
+![Application](/img/pic-05-01.png?raw=true)
 
 <br/>
 
-![Application](/img/pic-05-02.png?raw=true)  
-
+![Application](/img/pic-05-02.png?raw=true)
 
 <br/>
 
 ### 041 Profile API - Editing your profile
 
+<br/>
+
+![Application](/img/pic-05-03.png?raw=true)
 
 <br/>
 
-![Application](/img/pic-05-03.png?raw=true)  
+![Application](/img/pic-05-04.png?raw=true)
 
 <br/>
 
-![Application](/img/pic-05-04.png?raw=true)  
+![Application](/img/pic-05-05.png?raw=true)
 
 <br/>
 
-![Application](/img/pic-05-05.png?raw=true)  
-
-<br/>
-
-![Application](/img/pic-05-06.png?raw=true)  
-
+![Application](/img/pic-05-06.png?raw=true)
 
 <br/>
 
 ### 042 Address API - GET and POST
 
+<br/>
+
+![Application](/img/pic-05-07.png?raw=true)
 
 <br/>
 
-![Application](/img/pic-05-07.png?raw=true) 
-
-
-<br/>
-
-![Application](/img/pic-05-08.png?raw=true) 
+![Application](/img/pic-05-08.png?raw=true)
 
 <br/>
 
-![Application](/img/pic-05-09.png?raw=true) 
+![Application](/img/pic-05-09.png?raw=true)
 
 <br/>
 
-![Application](/img/pic-05-10.png?raw=true) 
+![Application](/img/pic-05-10.png?raw=true)
 
 <br/>
 
 ## 06 Profile and Address Pages - Angular
-
 
 <br/>
 
@@ -390,7 +367,7 @@ POSTMAN
 ### 046 Settings Page
 
     $ ng generate component Settings
-    
+
 <br/>
 
 ### 047 Create Address Page
@@ -401,24 +378,21 @@ POSTMAN
 
 ### 048 Features Demo
 
+<br/>
+
+![Application](/img/pic-06-01.png?raw=true)
 
 <br/>
 
-![Application](/img/pic-06-01.png?raw=true) 
+![Application](/img/pic-06-02.png?raw=true)
 
 <br/>
 
-![Application](/img/pic-06-02.png?raw=true) 
-
-<br/>
-
-![Application](/img/pic-06-03.png?raw=true) 
-
+![Application](/img/pic-06-03.png?raw=true)
 
 <br/>
 
 ## 07 Adding a category and product as a seller - Node.js
-
 
 <br/>
 
@@ -436,14 +410,13 @@ POSTMAN
 
 ### 053 Get all categories API
 
+<br/>
+
+![Application](/img/pic-07-01.png?raw=true)
 
 <br/>
 
-![Application](/img/pic-07-01.png?raw=true) 
-
-<br/>
-
-![Application](/img/pic-07-02.png?raw=true) 
+![Application](/img/pic-07-02.png?raw=true)
 
 <br/>
 
@@ -479,28 +452,25 @@ POSTMAN
 
 <br/>
 
-![Application](/img/pic-07-03.png?raw=true) 
+![Application](/img/pic-07-03.png?raw=true)
 
 <br/>
 
-![Application](/img/pic-07-04.png?raw=true) 
-
+![Application](/img/pic-07-04.png?raw=true)
 
 <br/>
 
 ## 08 Adding a category and product as a seller - Angular
-
 
 <br/>
 
 ### 062 Create Categories Component
 
     $ ng generate component Categories
-    
+
 <br/>
 
-![Application](/img/pic-08-01.png?raw=true)  
-
+![Application](/img/pic-08-01.png?raw=true)
 
 <br/>
 
@@ -508,34 +478,29 @@ POSTMAN
 
 <br/>
 
-![Application](/img/pic-08-02.png?raw=true)  
-
+![Application](/img/pic-08-02.png?raw=true)
 
 <br/>
 
 ### 064 Create Post Product Component
 
     $ ng generate component PostProduct
-    
 
 **I didn't use Amazon s3 for pictures**
 
-    
 <br/>
 
-![Application](/img/pic-08-03.png?raw=true)  
-
+![Application](/img/pic-08-03.png?raw=true)
 
 <br/>
 
-![Application](/img/pic-08-04.png?raw=true)  
+![Application](/img/pic-08-04.png?raw=true)
 
 <br/>
 
 ### 065 Create My-Products Component
 
     $ ng generate component MyProducts
-    
 
 <br/>
 
@@ -545,11 +510,9 @@ POSTMAN
 
 ![Application](/img/pic-08-06.png?raw=true)
 
-
 <br/>
 
 ## 09 Products API - Node.js
-
 
 <br/>
 
@@ -568,13 +531,13 @@ POSTMAN
 ### 069 Async.waterfall params and query
 
     $ npm install --save async
-    
+
 <br/>
-    
+
 ### 070 - 073 Getting all products in a specific category API
 
 <br/>
-    
+
 ### 074 Getting a single product API
 
 <br/>
@@ -582,11 +545,11 @@ POSTMAN
 ![Application](/img/pic-09-02.png?raw=true)
 
 <br/>
-    
+
 ### 074 Getting a single product API
 
 <br/>
-    
+
 ### 075 Getting all products API
 
 <br/>
@@ -594,36 +557,35 @@ POSTMAN
 ![Application](/img/pic-09-03.png?raw=true)
 
 <br/>
-    
+
 ## 10 Products API - Angular
 
 <br/>
-    
+
 ### 077 Pagination concept
 
 <br/>
-    
+
 ### 078 Create Category Component
 
     $ ng generate component Category
 
-
 <br/>
 
 ![Application](/img/pic-10-01.png?raw=true)
-    
+
 <br/>
-    
+
 ### 079 Create Product Component
 
     $ ng generate component Product
-    
+
 <br/>
 
 ![Application](/img/pic-10-02.png?raw=true)
 
 <br/>
-    
+
 ### 080 Add Product Cards to Home
 
 <br/>
@@ -646,18 +608,16 @@ POSTMAN
 
 ![Application](/img/pic-11-01.png?raw=true)
 
-
 <br/>
 
 ![Application](/img/pic-11-02.png?raw=true)
-
 
 <br/>
 
 ### 084 Install deepPopulate
 
     $ npm install --save mongoose-deep-populate
-    
+
 <br/>
 
 ![Application](/img/pic-11-03.png?raw=true)
@@ -669,7 +629,6 @@ POSTMAN
 <br/>
 
 ![Application](/img/pic-11-04.png?raw=true)
-
 
 <br/>
 
@@ -691,7 +650,6 @@ POSTMAN
 
 ![Application](/img/pic-12-03.png?raw=true)
 
-
 <br/>
 
 ## 13 Search API with Algolia - Node.js
@@ -702,27 +660,25 @@ POSTMAN
 
 algolia.com
 
-
 <br/>
 
 ### 090 Add Algolia plugin to Product Schema
 
     $ npm install --save mongoose-algolia
-    
+
 <br/>
 
-![Application](/img/pic-13-01.png?raw=true)    
+![Application](/img/pic-13-01.png?raw=true)
 
 <br/>
 
 ### 091 Create a search API
 
     $ npm install --save algoliasearch
-    
+
 <br/>
 
-![Application](/img/pic-13-02.png?raw=true) 
-
+![Application](/img/pic-13-02.png?raw=true)
 
 <br/>
 
@@ -736,8 +692,7 @@ algolia.com
 
 <br/>
 
-![Application](/img/pic-14-01.png?raw=true) 
-
+![Application](/img/pic-14-01.png?raw=true)
 
 <br/>
 
@@ -761,11 +716,25 @@ stripe.com
 
 <br/>
 
-### 099 Payment API    
+### 099 Payment API
 
+<br/>
 
+## 16 Payment API with Stripe - Angular
 
-___
+<br/>
+
+### 101 Setting up Stripe
+
+<br/>
+
+### 102 Cart Functionality
+
+<br/>
+
+![Application](/img/pic-16-01.png?raw=true)
+
+---
 
 **Marley**
 
